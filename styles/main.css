@@ -107,6 +107,24 @@ body.no_scroll {
   }
 }
 
+@media only screen and (max-width: 375px) {
+  .header {
+    width: 375px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    width: 500px;
+  }
+}
+
 .header .mobile-menu {
   width: 0;
   height: 0;
