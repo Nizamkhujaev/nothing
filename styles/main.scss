@@ -189,6 +189,10 @@ body.no_scroll {
       padding: 18px 0;
     }
 
+    @media only screen and (max-width:576px) {
+      padding: 18px 10px;
+    }
+
     &-left {
       display: flex;
       align-items: center;
@@ -196,7 +200,6 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         position: relative;
         z-index: 13;
-        padding: 0 10px;
       }
 
       &__title {
@@ -2164,6 +2167,7 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         width: 350px;
         padding: 17px 16px 20px 16px;
+        margin-right: 0;
       }
 
       &-top {
@@ -2792,6 +2796,9 @@ body.no_scroll {
         text-decoration: none;
         color: #5D748A;
         width: 130px;
+        @media only screen and (max-width:576px) {
+          width: 150px;
+        }
       }
     }
   }
