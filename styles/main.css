@@ -103,6 +103,7 @@ body.no_scroll {
   .header {
     position: relative;
     z-index: 13;
+    width: 576px;
   }
 }
 
