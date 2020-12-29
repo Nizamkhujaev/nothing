@@ -117,7 +117,7 @@ body.no_scroll {
       color: #5D748A;
 
       &:first-child {
-        padding-top: 170px;
+        margin-top: 170px;
       }
 
       &.link-bottom {
@@ -2387,6 +2387,11 @@ body.no_scroll {
     display: flex;
     align-items: center;
     padding: 0 30px 24px 0;
+
+    @media only screen and (max-width:576px) {
+      padding: 0;
+      margin-bottom: 24px;
+    }
 
 
     .other-link {
