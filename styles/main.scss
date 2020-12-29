@@ -80,7 +80,7 @@ body.no_scroll {
   @media only screen and (max-width:576px) {
     position: relative;
     z-index: 13;
-  }
+  } 
 
   .mobile-menu {
     width: 0;
@@ -190,7 +190,8 @@ body.no_scroll {
     }
 
     @media only screen and (max-width:576px) {
-      padding: 18px 10px;
+      padding: 18px 20px;
+      box-sizing: border-box;
     }
 
     &-left {

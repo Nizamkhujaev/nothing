@@ -232,7 +232,9 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .header-inner {
-    padding: 18px 10px;
+    padding: 18px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
