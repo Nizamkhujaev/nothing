@@ -80,19 +80,6 @@ body.no_scroll {
   @media only screen and (max-width:576px) {
     position: relative;
     z-index: 13;
-    width: 576px;
-  }
-
-  @media only screen and (max-width:375px) {
-    width: 375px;
-  }
-
-  @media only screen and (max-width:400px) {
-    width: 400px;
-  }
-
-  @media only screen and (max-width:500px) {
-    width: 500px;
   }
 
   .mobile-menu {
@@ -1634,7 +1621,7 @@ body.no_scroll {
     margin-bottom: 32px;
 
     @media only screen and (max-width:576px) {
-      width: 350px;
+      width: 300px;
     }
   }
 
@@ -1708,7 +1695,7 @@ body.no_scroll {
       width: 350px;
       color: #5D748A;
       @media only screen and (max-width:576px) {
-        width: 318px;
+        width: 300px;
       }
     }
 
@@ -1722,7 +1709,7 @@ body.no_scroll {
       opacity: 0.5;
 
       @media only screen and (max-width:576px) {
-        width: 318px;
+        width: 290px;
       }
     }
   }
