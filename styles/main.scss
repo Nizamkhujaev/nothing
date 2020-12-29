@@ -196,6 +196,7 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         position: relative;
         z-index: 13;
+        padding: 0 10px;
       }
 
       &__title {
@@ -205,6 +206,9 @@ body.no_scroll {
         line-height: 110.84%;
         width: 130px;
         color: #5D748A;
+        @media only screen and (max-width:576px) {
+          width: 150px;
+        }
       }
 
       .header-left-logo {
@@ -946,10 +950,13 @@ body.no_scroll {
   border-radius: 16px;
   box-sizing: border-box;
 
+  
+
   @media only screen and (max-width:576px) {
     background-image: none;
     box-sizing: border-box;
     padding: 17px 20px 27px 20px;
+    width: 355px;
   }
 
   &__title {
@@ -1001,6 +1008,7 @@ body.no_scroll {
       color: #FFFFFF;
       margin-left: auto;
       margin-right: auto;
+      width: 317px;
     }
   }
 
@@ -1608,6 +1616,10 @@ body.no_scroll {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 32px;
+
+    @media only screen and (max-width:576px) {
+      width: 350px;
+    }
   }
 
   .advice-card-block {
@@ -1665,6 +1677,8 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         margin-right: auto;
         margin-left: auto;
+        width: 313px;
+        padding: 18px 0 18px 18px;
       }
     }
 
@@ -1677,6 +1691,9 @@ body.no_scroll {
       margin-bottom: 20px;
       width: 350px;
       color: #5D748A;
+      @media only screen and (max-width:576px) {
+        width: 318px;
+      }
     }
 
     &__text {
@@ -1687,6 +1704,10 @@ body.no_scroll {
       width: 370px;
       color: #5D748A;
       opacity: 0.5;
+
+      @media only screen and (max-width:576px) {
+        width: 318px;
+      }
     }
   }
 
@@ -1698,6 +1719,10 @@ body.no_scroll {
   .navigation {
     display: flex;
     margin-left: 90px;
+
+    @media only screen and (max-width:576px) {
+      margin-left: 70px;
+    }
 
     &-left {
       position: relative;
@@ -1844,6 +1869,8 @@ body.no_scroll {
 
       @media only screen and (max-width:576px) {
         margin-bottom: 30px;
+        width: 309px;
+        height: 278.66px;
       }
     }
 
@@ -1953,6 +1980,12 @@ body.no_scroll {
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 30px;
+            width: 270px;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 28px;
+            line-height: 125.34%;
+            color: #558EF7;
           }
         }
       }
@@ -2113,6 +2146,8 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         padding-left: 0;
         margin-bottom: 30px;
+        width: 305px;
+        height: 292.95px;
       }
     }
 
@@ -2128,6 +2163,7 @@ body.no_scroll {
 
       @media only screen and (max-width:576px) {
         width: 350px;
+        padding: 17px 16px 20px 16px;
       }
 
       &-top {
@@ -2215,7 +2251,7 @@ body.no_scroll {
               }
 
               @media only screen and (max-width:576px) {
-                padding-left: 20px;
+                padding-left: 50px;
                 margin-bottom: 10px;
               }
             }
@@ -2233,7 +2269,7 @@ body.no_scroll {
               height: 34px;
 
               @media only screen and (max-width:576px) {
-                left: -20px;
+                left: 0px;
               }
             }
 
@@ -2241,7 +2277,7 @@ body.no_scroll {
               position: relative;
 
               @media only screen and (max-width:576px) {
-                padding-left: 20px;
+                padding-left: 50px;
               }
 
               &::before {
@@ -2257,7 +2293,7 @@ body.no_scroll {
                 height: 34px;
 
                 @media only screen and (max-width:576px) {
-                  left: -20px;
+                  left: 0px;
                 }
               }
             }
@@ -2388,6 +2424,15 @@ body.no_scroll {
       @media only screen and (max-width:576px) {
         margin-left: auto;
         margin-right: auto;
+        width: 320px;
+        height: 387.69px;
+      }
+
+      & img{
+        @media only screen and (max-width:576px) {
+          width: 320px;
+          height: 387.69px;
+        }
       }
 
       &.first {
@@ -2546,6 +2591,7 @@ body.no_scroll {
 
   @media only screen and (max-width:576px) {
     background-image: none;
+    width: 330px;
   }
 
   &-inner {
@@ -2559,7 +2605,8 @@ body.no_scroll {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      padding: 10px 18px 18px 18px;
+      padding: 13px 18px 18px 20px;
+      box-sizing: border-box;
     }
 
 
@@ -2591,7 +2638,6 @@ body.no_scroll {
         }
 
         @media only screen and (max-width:576px) {
-          text-align: center;
           font-style: normal;
           font-weight: bold;
           font-size: 18px;
@@ -2600,6 +2646,7 @@ body.no_scroll {
           color: #FFFFFF;
           margin-left: auto;
           margin-right: auto;
+          width: 320px;
         }
       }
     }

@@ -243,6 +243,7 @@ body.no_scroll {
   .header-inner-left {
     position: relative;
     z-index: 13;
+    padding: 0 10px;
   }
 }
 
@@ -253,6 +254,12 @@ body.no_scroll {
   line-height: 110.84%;
   width: 130px;
   color: #5D748A;
+}
+
+@media only screen and (max-width: 576px) {
+  .header-inner-left__title {
+    width: 150px;
+  }
 }
 
 .header-inner-left .header-left-logo {
@@ -1119,6 +1126,7 @@ body.no_scroll {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     padding: 17px 20px 27px 20px;
+    width: 355px;
   }
 }
 
@@ -1177,6 +1185,7 @@ body.no_scroll {
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
+    width: 317px;
   }
 }
 
@@ -1828,6 +1837,12 @@ body.no_scroll {
   margin-bottom: 32px;
 }
 
+@media only screen and (max-width: 576px) {
+  .section6__text {
+    width: 350px;
+  }
+}
+
 .section6 .advice-card-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1896,6 +1911,8 @@ body.no_scroll {
   .section6 .advice-card:nth-child(2) {
     margin-right: auto;
     margin-left: auto;
+    width: 313px;
+    padding: 18px 0 18px 18px;
   }
 }
 
@@ -1910,6 +1927,12 @@ body.no_scroll {
   color: #5D748A;
 }
 
+@media only screen and (max-width: 576px) {
+  .section6 .advice-card__title {
+    width: 318px;
+  }
+}
+
 .section6 .advice-card__text {
   font-style: normal;
   font-weight: normal;
@@ -1918,6 +1941,12 @@ body.no_scroll {
   width: 370px;
   color: #5D748A;
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 576px) {
+  .section6 .advice-card__text {
+    width: 318px;
+  }
 }
 
 .section6-bottom {
@@ -1934,6 +1963,12 @@ body.no_scroll {
   display: -ms-flexbox;
   display: flex;
   margin-left: 90px;
+}
+
+@media only screen and (max-width: 576px) {
+  .section6 .navigation {
+    margin-left: 70px;
+  }
 }
 
 .section6 .navigation-left {
@@ -2097,6 +2132,8 @@ body.no_scroll {
 @media only screen and (max-width: 576px) {
   .section7-inner-left img {
     margin-bottom: 30px;
+    width: 309px;
+    height: 278.66px;
   }
 }
 
@@ -2244,6 +2281,12 @@ body.no_scroll {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+    width: 270px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 125.34%;
+    color: #558EF7;
   }
 }
 
@@ -2432,6 +2475,8 @@ body.no_scroll {
   .section8-inner-left {
     padding-left: 0;
     margin-bottom: 30px;
+    width: 305px;
+    height: 292.95px;
   }
 }
 
@@ -2451,6 +2496,7 @@ body.no_scroll {
 @media only screen and (max-width: 576px) {
   .section8-inner-right {
     width: 350px;
+    padding: 17px 16px 20px 16px;
   }
 }
 
@@ -2579,7 +2625,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section8-inner-right .prize-card-center__number:first-child {
-    padding-left: 20px;
+    padding-left: 50px;
     margin-bottom: 10px;
   }
 }
@@ -2599,7 +2645,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section8-inner-right .prize-card-center__number::before {
-    left: -20px;
+    left: 0px;
   }
 }
 
@@ -2609,7 +2655,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section8-inner-right .prize-card-center__number:last-child {
-    padding-left: 20px;
+    padding-left: 50px;
   }
 }
 
@@ -2628,7 +2674,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section8-inner-right .prize-card-center__number:last-child::before {
-    left: -20px;
+    left: 0px;
   }
 }
 
@@ -2777,6 +2823,15 @@ body.no_scroll {
   .section9 .section9-center .sportsman {
     margin-left: auto;
     margin-right: auto;
+    width: 320px;
+    height: 387.69px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section9 .section9-center .sportsman img {
+    width: 320px;
+    height: 387.69px;
   }
 }
 
@@ -2934,6 +2989,7 @@ body.no_scroll {
 @media only screen and (max-width: 576px) {
   .section10 {
     background-image: none;
+    width: 330px;
   }
 }
 
@@ -2964,7 +3020,9 @@ body.no_scroll {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 10px 18px 18px 18px;
+    padding: 13px 18px 18px 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
@@ -3004,7 +3062,6 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section10-inner-left__title {
-    text-align: center;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -3013,6 +3070,7 @@ body.no_scroll {
     color: #FFFFFF;
     margin-left: auto;
     margin-right: auto;
+    width: 320px;
   }
 }
 
