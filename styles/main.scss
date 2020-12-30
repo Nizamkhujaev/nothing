@@ -1140,10 +1140,16 @@ body.no_scroll {
     }
 
     @media only screen and (max-width:576px) {
-      width: 56%;
+      width: 323px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
+    }
+
+    &__img{
+      @media only screen and (max-width:576px) {
+        width: 323px; 
+      }
     }
 
     &:hover.card-news::before {
@@ -1260,9 +1266,16 @@ body.no_scroll {
     @extend %transition;
 
     @media only screen and (max-width:576px) {
+      width: 323px;
       margin-left: auto;
       margin-right: auto;
       margin-bottom: 30px;
+    }
+
+    &__img {
+      @media only screen and (max-width:576px) {
+        width: 323px;
+      }
     }
 
 
@@ -1278,7 +1291,7 @@ body.no_scroll {
       }
 
       @media only screen and (max-width:576px) {
-        width: 56%;
+        width: 323px;
         height: 284.68px;
       }
     }
@@ -1725,7 +1738,7 @@ body.no_scroll {
     margin-left: 90px;
 
     @media only screen and (max-width:576px) {
-      margin-left: 70px;
+      margin-left: 50px;
     }
 
     &-left {
@@ -2166,7 +2179,7 @@ body.no_scroll {
       }
 
       @media only screen and (max-width:576px) {
-        width: 350px;
+        width: 323px;
         padding: 17px 16px 20px 16px;
         margin-right: 0;
       }

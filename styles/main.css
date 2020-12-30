@@ -1331,10 +1331,16 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section3 .card-news {
-    width: 56%;
+    width: 323px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section3 .card-news__img {
+    width: 323px;
   }
 }
 
@@ -1462,9 +1468,16 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section4 .card-news {
+    width: 323px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .section4 .card-news__img {
+    width: 323px;
   }
 }
 
@@ -1486,7 +1499,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section4 .card-news.prez {
-    width: 56%;
+    width: 323px;
     height: 284.68px;
   }
 }
@@ -1974,7 +1987,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section6 .navigation {
-    margin-left: 70px;
+    margin-left: 50px;
   }
 }
 
@@ -2502,7 +2515,7 @@ body.no_scroll {
 
 @media only screen and (max-width: 576px) {
   .section8-inner-right {
-    width: 350px;
+    width: 323px;
     padding: 17px 16px 20px 16px;
     margin-right: 0;
   }
