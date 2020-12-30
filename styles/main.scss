@@ -186,7 +186,8 @@ body.no_scroll {
     align-items: center;
 
     @media only screen and (max-width:1024px) {
-      padding: 18px 0;
+      padding: 18px 34px;
+      box-sizing: border-box;
     }
 
     @media only screen and (max-width:576px) {
@@ -2472,6 +2473,17 @@ body.no_scroll {
         width: 304px;
         height: 380px;
 
+        &__position{
+          @media only screen and (max-width:1024px) {
+            bottom: 16px;
+          }
+        }
+
+        @media only screen and (max-width:1024px) {
+          width: 286px;
+          overflow: hidden;
+        }
+
         @media only screen and (max-width:576px) {
           display: none;
         }
@@ -2595,6 +2607,11 @@ body.no_scroll {
 .section10 {
 
   &.container {
+
+    @media only screen and (max-width:1024px) {
+      padding: 0;
+    }
+
     @media only screen and (max-width:576px) {
       padding: 0;
     }
@@ -2623,6 +2640,10 @@ body.no_scroll {
     justify-content: space-between;
     align-items: center;
     box-sizing: border-box;
+
+    @media only screen and (max-width:1024px) {
+      padding: 60px 90px 50px 60px;
+    }
 
     @media only screen and (max-width:576px) {
       flex-direction: column;

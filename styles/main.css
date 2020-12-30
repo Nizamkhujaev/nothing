@@ -226,7 +226,9 @@ body.no_scroll {
 
 @media only screen and (max-width: 1024px) {
   .header-inner {
-    padding: 18px 0;
+    padding: 18px 34px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
   }
 }
 
@@ -2879,6 +2881,19 @@ body.no_scroll {
   height: 380px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .section9 .section9-center .sportsman.second__position {
+    bottom: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .section9 .section9-center .sportsman.second {
+    width: 286px;
+    overflow: hidden;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .section9 .section9-center .sportsman.second {
     display: none;
@@ -3001,6 +3016,12 @@ body.no_scroll {
           box-sizing: border-box;
 }
 
+@media only screen and (max-width: 1024px) {
+  .section10.container {
+    padding: 0;
+  }
+}
+
 @media only screen and (max-width: 576px) {
   .section10.container {
     padding: 0;
@@ -3034,6 +3055,12 @@ body.no_scroll {
           align-items: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1024px) {
+  .section10-inner {
+    padding: 60px 90px 50px 60px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
