@@ -2979,12 +2979,12 @@ body.no_scroll {
   color: #fff;
   position: absolute;
   bottom: 50px;
-  left: 16px;
+  left: 10px;
   text-decoration: none;
 }
 
 .section9 .sportsman__namee:last-child {
-  left: 16px;
+  left: 10px;
 }
 
 .section9 .sportsman__positionn {
@@ -3002,7 +3002,7 @@ body.no_scroll {
 }
 
 .section9 .sportsman__positionn:last-child {
-  left: 16px;
+  left: 10px;
 }
 
 .section10 {
